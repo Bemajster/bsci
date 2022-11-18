@@ -1,0 +1,2 @@
+# bmath
+ TypeScript math library.
