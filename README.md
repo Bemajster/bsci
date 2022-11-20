@@ -1,2 +1,2 @@
-# bmath
- TypeScript math library.
+# bsci
+ TypeScript science computing library.
