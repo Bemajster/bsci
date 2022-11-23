@@ -1,6 +1,6 @@
 {
   "name": "bsci",
-  "version": "0.0.1-ALPHA2",
+  "version": "0.0.1-ALPHA3",
   "description": "A scientific computation library.",
   "types": "./lib/index.d.ts",
   "main": "./lib/index.js",
@@ -11,7 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Bemajster/bmath.git"
+    "url": "git+https://github.com/Bemajster/bsci.git"
   },
   "keywords": [
     "science",
