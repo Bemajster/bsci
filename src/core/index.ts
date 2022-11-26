@@ -1,2 +1,4 @@
 export * from "./operations/index"
-export * from "./fractions/Fraction"
+export * from "./extend/index"
+
+export * from "./initialize"

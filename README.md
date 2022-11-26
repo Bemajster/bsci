@@ -1,2 +1,3 @@
 # bsci
- TypeScript science computing library.
+
+TypeScript scientific computing library.

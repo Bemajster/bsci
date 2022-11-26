@@ -1,4 +1,4 @@
-import { Fraction, Complex } from "./../../../src"
+import { Fraction, Complex, currentPluginLoader } from "./../../../src"
 
 //TODO: change system to switch case for better performance
 //TODO: make mul() function take an array of objects to make it a multi-input function
@@ -20,5 +20,14 @@ export function mul(a, b?) {
       mul(a.re, b.re) - mul(a.im, b.im),
       mul(a.re, b.im) + mul(a.im, b.re),
     ])
+  } else {
+    if (
+      currentPluginLoader.useMulRules() !== undefined ||
+      currentPluginLoader.useMulRules() !== 0
+    ) {
+      currentPluginLoader.useMulRules()
+    } else {
+      throw new Error("Cannot multiply these two variables.")
+    }
   }
 }
